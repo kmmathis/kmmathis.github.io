@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Palo Alto University"
+description: "Additional design and customization for a Drupal website"
+date:   2016-01-02 13:12:51 -0400
+categories: web
+previousProjectName: "Cressy Door"
+previousProjectURL: "cressy-door"
+nextProjectName: "Fretboard Journal"
+nextProjectURL: "fretboard-journal"
+techs: "Drupal, PHP, Git, CSS, HTML, JavaScript, jQuery"
+---
+<div class="container-thin mx-auto p2">
+  {% include browser.html poster="/assets/img/palo-alto.jpg" mp4="" classes="mb2" %}
+  <p>Similar to my work with the <a href="/posts/fretboard-journal.html">Fretboard Journal</a>, I was contracted to do some design and development work for Palo Alto University and their Drupal-based website. I worked closely with the PAU team and a graphic designer to re-make their homepage and many of the interior pages for their curriculum offerings and staff areas. One of the concerns with working on this site was making sure it was accessible to all visitors, so I made sure to follow all the best accessibilty and screen-reader software practices.</p>
+  <p>I had a lot of fun with this project, gaining more experience with Git and Drupal, as well as publishing work that was seen and used by a lot of people.</p>
+</div>

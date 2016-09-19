@@ -1,0 +1,40 @@
+.cover {
+  background-size: cover;
+}
+
+  .cover-text {
+    width: 15em;
+
+    @media (--breakpoint-sm) {
+
+    }
+  }
+
+  .cover-heading {
+    display: block;
+    color: #000;
+
+    &.yellow {
+      background-color: #FFDC00;
+    }
+
+    &.blue {
+      background-color: #1468AA;
+      animation-delay: 0.3s;
+    }
+
+    &.red {
+      background-color: #E93E63;
+      animation-delay: 0.6s;
+    }
+
+    &.black {
+      color: #fff;
+      background-color: #222;
+      width: 9em;
+    }
+  }
+
+    .cover-heading-cap {
+      font-size: 1.3em;
+    }

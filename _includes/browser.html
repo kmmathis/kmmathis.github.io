@@ -1,0 +1,15 @@
+<div class="browser {{include.classes}}">
+  <div class="browser-toolbar"><span class="red"></span><span class="yellow"></span><span class="green"></span></div>
+  <div class="browser-content">
+    {% if include.mp4 == "" %}
+      <img src="{{include.poster}}">
+    {% else %}
+      <video controls poster="{{include.poster}}" >
+        <source src="{{include.webm}}" type="video/webm">
+        <source src="{{include.mp4}}" type="video/mp4">
+        <!-- <source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg"> -->
+        <img src="{{include.poster}}">
+      </video>
+    {% endif %}
+  </div>
+</div><br>

@@ -1,0 +1,23 @@
+.project-preview {
+  color: #111;
+  display: block;
+
+  @media (--breakpoint-sm)  {
+    display: inline-block;
+    width: 49%;
+
+    &:hover {
+      color: #07f;
+    }
+  }
+
+  @media (--breakpoint-md)  {
+    width: 33%;
+    float: left;
+  }
+
+  @media (--breakpoint-lg)  {
+    width: 20%;
+    float: left;
+  }
+}

@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Veterans National Lending Group"
+description: "Designed and developed a WordPress portfolio website"
+date:   2016-01-21 13:12:51 -0400
+categories: web
+techs: "WordPress, PHP, Less, responsive design, JavaScript, jQuery, Git, SVG"
+nextProjectName: "Pi Development"
+nextProjectURL: "pi-development"
+---

@@ -1,0 +1,250 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,900';
+
+@import 'basscss-basic';
+
+/* Basscss Modules */
+@import 'basscss-type-scale';
+@import 'basscss-typography';
+@import 'basscss-layout';
+@import 'basscss-align';
+@import 'basscss-margin';
+@import 'basscss-padding';
+@import 'basscss-grid';
+@import 'basscss-flexbox';
+@import 'basscss-position';
+@import 'basscss-border';
+@import 'basscss-hide';
+@import 'basscss-addons/modules/background-colors';
+@import 'basscss-addons/modules/background-images';
+@import 'basscss-addons/modules/btn';
+@import 'basscss-addons/modules/btn-primary';
+@import 'basscss-addons/modules/btn-outline';
+
+@import 'libs/animate';
+
+/* Optional Modules (not included in Basscss by default) */
+/*
+
+@import 'basscss-addons/modules/responsive-margin';
+@import 'basscss-addons/modules/responsive-padding';
+
+@import 'basscss-addons/modules/media-object';
+@import 'basscss-addons/modules/all';
+@import 'basscss-addons/modules/forms';
+@import 'basscss-addons/modules/input-range';
+@import 'basscss-addons/modules/progress';
+@import 'basscss-addons/modules/btn-sizes';
+
+@import 'basscss-addons/modules/colors';
+@import 'basscss-addons/modules/background-colors';
+@import 'basscss-addons/modules/border-colors';
+@import 'basscss-addons/modules/darken';
+@import 'basscss-addons/modules/lighten';
+@import 'basscss-addons/modules/background-images';
+*/
+
+
+/* Custom media queries */
+/*
+@custom-media --breakpoint-sm (min-width: 40em);
+@custom-media --breakpoint-md (min-width: 52em);
+@custom-media --breakpoint-lg (min-width: 64em);
+*/
+
+
+/* Custom properties */
+
+:root {
+  --h1: 2rem;
+  --h2: 1.5rem;
+  --h3: 1.25rem;
+  --h4: 1rem;
+  --h5: .875rem;
+  --h6: .75rem;
+
+  --bold-font-weight: bold;
+
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 2rem;
+  --space-4: 4rem;
+
+  --border-width: 1px;
+  --border-radius: 3px;
+}
+
+video {
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+
+  @media (--breakpoint-sm) {
+    font-size: 1.2em;
+  }
+}
+
+hr {border-color: #111;}
+
+a:hover,
+a:active,
+a:focus {
+  color: #008fff;
+}
+
+a {
+  color: #008fff;
+}
+
+.btn-outline-primary {
+  color: #008fff;
+}
+
+.btn-outline {
+  border-width: 3px;
+}
+
+.container {
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+
+
+.home .container {
+  @media (--breakpoint-sm) {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.container-thin {
+  max-width: 40em;
+}
+
+.post .container {
+  max-width: 60em;
+}
+
+.tdn {
+  text-decoration: none;
+}
+
+.btn.block {
+  display: block !important;
+  text-align: center;
+}
+
+.cover {
+  background-image: url('/assets/img/cover-2.jpg');
+  background-size: cover;
+  background-position: bottom;
+
+    a {
+      color: #fff;
+      background-color: rgba(0,0,0,0.6);
+      font-weight: bold;
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: rgba(0,0,0,1);
+      }
+    }
+}
+
+  .home .cover-text {
+    display: block;
+    width: 18em;
+
+    @media (--breakpoint-sm) {
+      width: 15em;
+    }
+  }
+
+  .cover-text {
+    display: inline-block;
+  }
+
+  .cover-heading {
+    display: block;
+    color: #000;
+
+    &.yellow {
+      background-color: #FFDC00;
+    }
+
+    &.blue {
+      background-color: #008fff;
+      animation-delay: 0.3s;
+    }
+
+    &.red {
+      background-color: #E93E63;
+      animation-delay: 0.6s;
+    }
+
+    &.black {
+      color: #fff;
+      background-color: #222;
+      width: 9em;
+    }
+  }
+
+    .cover-heading-cap {
+      font-size: 1.3em;
+    }
+
+
+.project-preview {
+  color: #111;
+  display: block;
+}
+
+.browser {
+  display: inline-block;
+}
+
+  .browser-toolbar {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #ddd;
+    line-height: 1;
+    padding: 0 10px;
+
+    span {
+      display: inline-block;
+      margin: 0 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      border: 1px solid rgba(0,0,0,0.2);
+
+      &.red {background-color: #E93E63;}
+      &.yellow {background-color: #FFDC00;}
+      &.green {background-color: #34C84A;}
+    }
+  }
+
+  .browser-content {
+    border: 5px solid #ddd;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    line-height: 0;
+  }
+
+
+@media(--breakpoint-sm) {
+  .post-nav-prev {
+    padding-right: 1em;
+  }
+  .post-nav-next {
+    padding-left: 1em;
+  }
+}
+
+.well {
+  background-color: #eee;
+  border-radius: 4px;
+}

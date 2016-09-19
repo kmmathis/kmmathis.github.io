@@ -1,0 +1,24 @@
+/*------------------------------------*\
+  #BOX
+\*------------------------------------*/
+
+$color: maroon;
+
+.box {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+
+  &:hover {
+    background-color: $color;
+  }
+}
+
+@media (min-width: 500px) {
+  .box {
+    position: relative;
+    display: block;
+    background-color: teal;
+  }
+}
