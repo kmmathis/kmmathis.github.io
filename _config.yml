@@ -18,9 +18,8 @@ email: kory.mathis@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Web designer and developer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://korymathis.com" # the base hostname & protocol for your site
+github_username:  kmmathis
 permalink: /posts/:title.html
 # Build settings
 markdown: kramdown

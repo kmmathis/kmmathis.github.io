@@ -7,5 +7,13 @@ categories: web
 techs: "WordPress, PHP, Less, responsive design, JavaScript, jQuery, Git, SVG"
 nextProjectName: "Pi Development"
 nextProjectURL: "pi-development"
+previousProjectName: "Summit Homes"
+previousProjectURL: "summit-homes"
 siteurl: "https://veteransnationallending.com"
 ---
+
+<div class="container-thin mx-auto p2">
+{% include browser.html poster="/assets/img/veterans-desktop.jpg" webm="/assets/video/veterans-desktop.webm" mp4="/assets/video/veterans-desktop.mp4" classes="mb2" %}
+
+{% include browser.html poster="/assets/img/veterans-desktop-2.jpg" webm="/assets/video/veterans-desktop2.webm" mp4="/assets/video/veterans-desktop2.mp4" classes="mb2" %}
+</div>

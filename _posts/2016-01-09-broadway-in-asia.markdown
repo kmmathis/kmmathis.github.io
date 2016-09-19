@@ -4,8 +4,8 @@ title:  "Broadway in Asia"
 description: "WordPress website design and development"
 date:   2016-01-09 13:12:51 -0400
 categories: web
-previousProjectName: "Summit Homes"
-previousProjectURL: "summit-homes"
+previousProjectName: "Passio Creative"
+previousProjectURL: "passio-creative"
 nextProjectName: "WA Home Team"
 nextProjectURL: "wa-home-team"
 techs: "WordPress, PHP, Sass, responsive design, JavaScript, jQuery, Git"
@@ -23,12 +23,12 @@ siteurl: "https://broadwayinasia.com"
   <div class="col col-12 sm-col-4">
     {% include browser.html poster="/assets/img/broadway-mobile.jpg" webm="/assets/video/broadway-mobile.webm" mp4="/assets/video/broadway-mobile.mp4" %}
   </div>
-  <div class="col col-12 sm-col-8 p4">
+  <div class="col col-12 sm-col-8 sm-p4">
     <h2>Mobile Responsive</h2>
 
     <p>My goal when making websites is to make them mobile-ready right from the beginning. I adopt the "mobile-first" approach, where I develop the website for small screens first before expanding the layout for bigger screens. For Broadway in Asia, the tricky part was getting the galleries of shows to look and respond well on mobile devices, but with a bit of tinkering it came together great. The accompanying video shows the site in action on a mobile device.</p>
 
     <h2>That's all, folks</h2>
-  <p>Broadway in Asia was a very fun project, and came together rather quickly. I had a great time going through their pre-existing branding materials and picking out colors and design elements to construct a page design that the client was happy with.</p>
+  <p>Broadway in Asia was a very fun project, and came together rather quickly. I had a great time going through their preexisting branding materials and picking out colors and design elements to construct a page design that the client was happy with.</p>
   </div>
 </div>

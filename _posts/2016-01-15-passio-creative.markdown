@@ -4,8 +4,8 @@ title:  "Passio Creative"
 description: "Converted a PSD into a fully editable and responsive WordPress theme"
 date:   2016-01-15 13:12:51 -0400
 categories: web
-nextProjectName: "Summit Homes"
-nextProjectURL: "summit-homes"
+nextProjectName: "Broadway in Asia"
+nextProjectURL: "broadway-in-asia"
 previousProjectName: "Pi Development"
 previousProjectURL: "pi-development"
 techs: "WordPress, Genesis framework, PHP, Less, responsive design, JavaScript, jQuery, Git, TypeKit"

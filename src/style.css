@@ -14,11 +14,10 @@
 @import 'basscss-position';
 @import 'basscss-border';
 @import 'basscss-hide';
-@import 'basscss-addons/modules/background-colors';
-@import 'basscss-addons/modules/background-images';
+
 @import 'basscss-addons/modules/btn';
-@import 'basscss-addons/modules/btn-primary';
 @import 'basscss-addons/modules/btn-outline';
+@import 'basscss-addons/modules/responsive-padding';
 
 @import 'libs/animate';
 
@@ -27,7 +26,7 @@
 
 @import 'basscss-addons/modules/responsive-margin';
 @import 'basscss-addons/modules/responsive-padding';
-
+@import 'basscss-addons/modules/btn-primary';
 @import 'basscss-addons/modules/media-object';
 @import 'basscss-addons/modules/all';
 @import 'basscss-addons/modules/forms';
@@ -40,6 +39,8 @@
 @import 'basscss-addons/modules/border-colors';
 @import 'basscss-addons/modules/darken';
 @import 'basscss-addons/modules/lighten';
+@import 'basscss-addons/modules/background-images';
+@import 'basscss-addons/modules/background-colors';
 @import 'basscss-addons/modules/background-images';
 */
 
@@ -71,10 +72,6 @@
 
   --border-width: 1px;
   --border-radius: 3px;
-}
-
-video {
-  max-width: 100%;
 }
 
 body {
@@ -131,15 +128,19 @@ a {
   text-align: center;
 }
 
-.cover {
-  position: relative;
-  background-image: url('/assets/img/cover-2.jpg');
+.site-header { background-image: url('/assets/img/cover-2.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom;}
+
+.cover {
+  line-height: 1;
+  position: relative;
+  background-color: rgba(0,0,0,0.3);
+ 
 
     a {
       color: #fff;
-      background-color: rgba(0,0,0,0.6);
+      background-color: #000;
       font-weight: bold;
 
       &:hover,
@@ -151,16 +152,13 @@ a {
 }
 
   .cover-image {
+    line-height: 1;
     position: absolute;
-    bottom: -8px;
+    bottom: 0;
     right: 0;
-    width: 43%;
+    width: 40%;
+    height: auto;
     animation-delay: 0.9s;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
 
     @media(--breakpoint-sm) {
       width: 250px;
@@ -226,6 +224,7 @@ a {
 
   .browser-toolbar {
     border-bottom: 1px solid #bbb;
+    height: 22px;
 
     span {
       display: inline-block;
@@ -242,6 +241,12 @@ a {
   }
 
   .browser-content {
+
+    img,
+    video {
+      width: 100%;
+      height: auto;
+    }
   }
 
 

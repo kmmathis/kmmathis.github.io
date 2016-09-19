@@ -21,7 +21,7 @@ siteurl: "https://cressydoor.com"
   <div class="col col-12 sm-col-4">
     {% include browser.html poster="/assets/img/cressy-mobile.jpg" webm="/assets/video/cressy-mobile.webm" mp4="/assets/video/cressy-mobile.mp4" %}
   </div>
-  <div class="col col-12 sm-col-8 p4">
+  <div class="col col-12 sm-col-8 sm-p4">
     <h2>Getting it done</h2>
 
     <p>I spent a good deal of time going through the previous developer's code and stripping out all the bad bits, cleaning up what I could, and writing new code and styles to finish up the site. Being that the site was built on WordPress, the most challenging task was building Cressy's gallery system that allows users to find doors by style and brand. By extending WordPress' built in category and taxonomy features, and with some templating magic, I was able to build the galleries that Cressy had wanted, and they were also fully responsive!</p>
