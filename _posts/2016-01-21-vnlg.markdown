@@ -7,4 +7,5 @@ categories: web
 techs: "WordPress, PHP, Less, responsive design, JavaScript, jQuery, Git, SVG"
 nextProjectName: "Pi Development"
 nextProjectURL: "pi-development"
+siteurl: "https://veteransnationallending.com"
 ---

@@ -9,6 +9,7 @@ nextProjectURL: "summit-homes"
 previousProjectName: "Pi Development"
 previousProjectURL: "pi-development"
 techs: "WordPress, Genesis framework, PHP, Less, responsive design, JavaScript, jQuery, Git, TypeKit"
+siteurl: "https://passiocreative.com"
 ---
 <div class="container-thin mx-auto p2">
 {% include browser.html poster="/assets/img/passio-expand.jpg" webm="/assets/video/passio-expand.webm" mp4="/assets/video/passio-expand.mp4" classes="mb2" %}
@@ -20,8 +21,4 @@ techs: "WordPress, Genesis framework, PHP, Less, responsive design, JavaScript, 
 
 <h2></h2>
 <p>Another challenging part of this project was the typography. Heather is a print designer, so of course the type in her design document looked awesome; however, the font she chose was not available anywhere as a web font. I searched through a few of the popular web font providers for something similar, and ended up finding a typeface at TypeKit that was close enough to get the job done. TypeKit, combined with the use of CSS line-height and letter-spacing properties, helped me get the type as close to the original design as possible.</p>
-
-<h3>More info:</h3>
-<p>Technologies: WordPress, Genesis framework, responsive design, TypeKit</p>
-<p><a href="http://passiocreative.com">View Website &raquo;</a></p>
 </div>

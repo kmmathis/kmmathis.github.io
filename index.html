@@ -8,18 +8,21 @@ layout: default
     <h2 class="slideInLeft animated cover-heading py1 pl3 h1 cover-heading blue mt0 mb1"><span class="cover-heading-cap">W</span>eb <span class="cover-heading-cap">D</span>eveloper</h2>
     <h2 class="slideInLeft animated cover-heading p1 pl3 h1 cover-heading red mt0 mb0"><span class="cover-heading-cap">M</span>usic <span class="cover-heading-cap">M</span>aker</h2>
   </div>
+  <div class="cover-image animated slideInRight">
+    <img src="/assets/img/me.png">
+  </div>
 </div>
 
 <div class="site-content">
 
   <section class="section py2">
     <h3 class="cover-heading p1 pl3 black"><span class="cover-heading-cap">W</span>eb <span class="cover-heading-cap">P</span>rojects</h3>
-    <div class="container clearfix">
+    <div class="container px1 clearfix">
       
       <div class="flex flex-wrap">
         {% for post in site.posts %}
           <div class="col-12 sm-col-6 md-col-4 lg-col-3">
-            <a href="{{ post.url | prepend: site.baseurl }}" class="project-preview px2 py1 tdn">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="project-preview px2 py1 my1 tdn">
               <h2 class="m0 p0 h3">{{ post.title | escape }}</h2>
               <p class="m0 p0">{{ post.description }}</p>
             </a>
@@ -31,25 +34,25 @@ layout: default
 
   <section class="section py2">
     <h3 class="cover-heading p1 pl3 black"><span class="cover-heading-cap">M</span>usic</h3>
-    <div class="container clearfix">
+    <div class="container px1 clearfix">
       <div class="flex flex-wrap">
 
         <div class="col-12 sm-col-6 md-col-4 lg-col-3">
-          <a href="https://soundcloud.com/sir-mt-abel" class="project-preview px2 py1 tdn">
+          <a href="https://soundcloud.com/sir-mt-abel" class="project-preview px2 py1 my1 tdn">
             <h2 class="m0 p0 h3">SoundCloud</h2>
             <p class="m0 p0">Random songs that I record can be found here</p>
           </a>
         </div>
 
         <div class="col-12 sm-col-6 md-col-4 lg-col-3">
-          <a href="http://reallyoldairplanes.bandcamp.com/album/forgotten-sadly-and-broken-ends" class="project-preview px2 py1 tdn">
+          <a href="http://reallyoldairplanes.bandcamp.com/album/forgotten-sadly-and-broken-ends" class="project-preview px2 py1 my1 tdn">
             <h2 class="m0 p0 h3">Forgotten Sadly, and Broken Ends</h2>
             <p class="m0 p0">An album I wrote and recorded with my band Really Old Airplanes in 2011</p>
           </a>
         </div>
 
         <div class="col-12 sm-col-6 md-col-4 lg-col-3">
-          <a href="http://reallyoldairplanes.bandcamp.com/album/mischievist-ep" class="project-preview px2 py1 tdn">
+          <a href="http://reallyoldairplanes.bandcamp.com/album/mischievist-ep" class="project-preview px2 py1 my1 tdn">
             <h2 class="m0 p0 h3">Mischievist EP</h2>
             <p class="m0 p0">The first release by my band Really Old Airplanes in 2010</p>
           </a>
@@ -59,7 +62,7 @@ layout: default
     </div>
   </section>
   
-  <div class="container pxy py1">
+  <div class="container px2 py1">
     {% include copyright.html %}
   </div>
   

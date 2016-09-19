@@ -112,12 +112,7 @@ a {
 
 
 
-.home .container {
-  @media (--breakpoint-sm) {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
+
 
 .container-thin {
   max-width: 40em;
@@ -137,6 +132,7 @@ a {
 }
 
 .cover {
+  position: relative;
   background-image: url('/assets/img/cover-2.jpg');
   background-size: cover;
   background-position: bottom;
@@ -153,6 +149,23 @@ a {
       }
     }
 }
+
+  .cover-image {
+    position: absolute;
+    bottom: -8px;
+    right: 0;
+    width: 43%;
+    animation-delay: 0.9s;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media(--breakpoint-sm) {
+      width: 250px;
+    }
+  }
 
   .home .cover-text {
     display: block;
@@ -204,18 +217,19 @@ a {
 
 .browser {
   display: inline-block;
+  border: 5px solid #ccc;
+  background-color: #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  line-height: 0;
 }
 
   .browser-toolbar {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    background-color: #ddd;
-    line-height: 1;
-    padding: 0 10px;
+    border-bottom: 1px solid #bbb;
 
     span {
       display: inline-block;
-      margin: 0 5px;
+      margin: 5px;
       width: 10px;
       height: 10px;
       border-radius: 100%;
@@ -228,10 +242,6 @@ a {
   }
 
   .browser-content {
-    border: 5px solid #ddd;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    line-height: 0;
   }
 
 
