@@ -8,11 +8,11 @@ var gulp = require('gulp'),
     lost = require('lost'),
     precss = require('precss'),
     cp = require('child_process'),
-    cssnext = require('postcss-cssnext'),
-    deploy = require('gulp-gh-pages');
+    exec = cp = require('child_process').exec,
+    cssnext = require('postcss-cssnext')
 ;
 
-var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
+var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'bundle exec jekyll';
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -23,8 +23,9 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-        .on('close', done);
+    // return cp.spawn( 'jekyll' , ['build'], {stdio: 'inherit'})
+    //     .on('close', done);
+    return exec('bundle exec jekyll build').on('close', done);
 });
 
 /**
@@ -76,11 +77,6 @@ gulp.task('css', function () {
 gulp.task('watch', function () {
     gulp.watch('src/**/*.css', ['css']);
     gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
-});
-
-gulp.task("deploy", ["jekyll-build"], function () {
-    return gulp.src("./_site/**/*")
-        .pipe(deploy());
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
