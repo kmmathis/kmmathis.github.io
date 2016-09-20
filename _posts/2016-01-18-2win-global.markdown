@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "2Win! Global"
+description: "CMS migration and landing page development"
+date:   2016-01-15 13:12:51 -0400
+categories: web
+techs: "WordPress, PHP, Sass, responsive design, JavaScript, jQuery, Git"
+previousProjectName: "Veterans National Lending Group"
+previousProjectURL: "vnlg"
+nextProjectName: "Passio Creative"
+nextProjectURL: "passio-creative"
+siteurl: "http://2winglobal.com"
+---
+<div class="container-thin mx-auto p2">
+<h2>From one CMS to another...</h2>
+{% include browser.html poster="/assets/img/2win-training2.jpg" webm="/assets/video/2win-training.webm" mp4="/assets/video/2win-training.mp4" classes="mb2" %}
+<p>2Win! Global was looking to make some modifications and design updates to their website. Unfortunately for them, they were using a clunky and proprietary CMS that didn't allow for a whole lot of customizations. My first task working with 2Win! was to take their design and content and create a WordPress theme for what would be called the "Training" section of their website. This section features, among other things, information on all their training services, as well as a full-fledged event calendar with managed bookings and payments via PayPal.</p>
+
+</div>
+
+<div class="container mx-auto p2 clearfix">
+  <div class="col col-12 sm-col-4">
+    {% include browser.html poster="/assets/img/2win-mobile.jpg" webm="/assets/video/2win-mobile.webm" mp4="/assets/video/2win-mobile.mp4" %}
+  </div>
+  <div class="col col-12 sm-col-8 sm-p4">
+    <h2>Responsive design FTW</h2>
+    <p>The fun part about this project was being faithful to 2Win!'s original design, while filling in some of the things that it was missing. My main objective was to make sure the site was responsive, and that the cool little features like the sticky note cards and the mega navigation menu worked well across all devices.</p>
+
+    
+  </div>
+</div>
+
+<div class="container-thin mx-auto p2">
+  <h2>The Landing Page</h2>
+
+  {% include browser.html poster="/assets/img/2win-bridge.jpg" webm="/assets/video/2win-bridge.webm" mp4="/assets/video/2win-bridge.mp4" classes="mb2" %}
+
+  <p>The other section of 2Win!'s website is a landing page with information about their "Bridge" product. I designed for them a single page responsive layout with all the pertinent information related to Bridge, including videos, testimonials and a pricing table. All of the sections on the landing page are editable from within WordPress, and allow 2Win! to link to their HubSpot lead generation pages to begin their relationships with new customers.</p>
+</div>

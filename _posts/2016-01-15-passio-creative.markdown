@@ -6,15 +6,15 @@ date:   2016-01-15 13:12:51 -0400
 categories: web
 nextProjectName: "Broadway in Asia"
 nextProjectURL: "broadway-in-asia"
-previousProjectName: "Pi Development"
-previousProjectURL: "pi-development"
+previousProjectName: "2Win! Global"
+previousProjectURL: "2win-global"
 techs: "WordPress, Genesis framework, PHP, Less, responsive design, JavaScript, jQuery, Git, TypeKit"
 siteurl: "https://passiocreative.com"
 ---
 <div class="container-thin mx-auto p2">
 {% include browser.html poster="/assets/img/passio-expand.jpg" webm="/assets/video/passio-expand.webm" mp4="/assets/video/passio-expand.mp4" classes="mb2" %}
 
-<p>I worked with Heather Stajgr, owner of Passio Creative, to turn her vision for her website into a reality. She sent me a PSD that contained every single page of her website, designed right down to the finest detail. It was my job and challenge to create a WordPress theme that remained faithful to her design.</p>
+<p>I worked with Heather Stajgr, owner of Passio Creative, to turn her vision for her website into a reality. She sent me a PSD that contained every single page of her website, designed right down to the finest detail. It was my job to create a WordPress theme that remained faithful to her design.</p>
 <p>The biggest challenge with this project was that Heather had sent me a website design that looked great on a large monitor, but didn't take into account any smaller screens like tablets or phones. So with my imagination, and her feedback, I coaxed her design into a fluid-width, adaptive website - one that I am very proud of.</p>
 
 {% include browser.html poster="/assets/img/passio-desktop.jpg" mp4="" classes="mb2" %}

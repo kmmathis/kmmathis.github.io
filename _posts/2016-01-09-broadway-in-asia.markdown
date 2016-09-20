@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Broadway in Asia"
-description: "WordPress website design and development"
+description: "Responsive WordPress website design and development"
 date:   2016-01-09 13:12:51 -0400
 categories: web
 previousProjectName: "Passio Creative"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cressy Door"
-description: "Website rescue with additional design and development"
+description: "Project rescue with additional design and development"
 date:   2016-01-03 13:12:51 -0400
 categories: web
 previousProjectName: "WA Home Team"
@@ -12,8 +12,8 @@ techs: "WordPress, PHP, CSS, responsive design, JavaScript, jQuery, Git"
 siteurl: "https://cressydoor.com"
 ---
 <div class="container-thin mx-auto p2">
-{% include browser.html poster="/assets/img/cressy-desktop.jpg" webm="/assets/video/cressy-desktop.webm" mp4="/assets/video/cressy-desktop.mp4" classes="mb2" %}
 <h2>To the rescue!</h2>
+{% include browser.html poster="/assets/img/cressy-desktop.jpg" webm="/assets/video/cressy-desktop.webm" mp4="/assets/video/cressy-desktop.mp4" classes="mb2" %}
 <p>The Cressy Door website is one project of many in a group that I like to call "rescue" work. In a nutshell, Cressy had paid for a website to be completed by a less than reputable company. The work this company was producing was shoddy at best, and ultimately they couldn't deliver to Cressy Door what had been asked of them. Completely frustrated (and several months past the deadline), Cressy Door contracted me to fix and finish their website.</p>
 </div>
 

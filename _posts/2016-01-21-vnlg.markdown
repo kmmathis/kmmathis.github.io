@@ -1,19 +1,24 @@
 ---
 layout: post
 title:  "Veterans National Lending Group"
-description: "Designed and developed a WordPress portfolio website"
+description: "Design and development for a responsive WordPress website"
 date:   2016-01-21 13:12:51 -0400
 categories: web
-techs: "WordPress, PHP, Less, responsive design, JavaScript, jQuery, Git, SVG"
-nextProjectName: "Pi Development"
-nextProjectURL: "pi-development"
+techs: "WordPress, PHP, Sass, responsive design, JavaScript, jQuery, Git"
+nextProjectName: "2Win! Global"
+nextProjectURL: "2win-global"
 previousProjectName: "Summit Homes"
 previousProjectURL: "summit-homes"
 siteurl: "https://veteransnationallending.com"
 ---
 
 <div class="container-thin mx-auto p2">
+<h2>Growing a business</h2>
 {% include browser.html poster="/assets/img/veterans-desktop.jpg" webm="/assets/video/veterans-desktop.webm" mp4="/assets/video/veterans-desktop.mp4" classes="mb2" %}
+<p>Veterans National Lending Group (VNLG for short) is a group of mortgage and lending professionals that offer their services to military personnel and their families. They originally began in Washington state, but when I began working on this project, they had just been approved to do business in many more states across the country. They needed a website that provided visitors with information on communities and military bases all around the country, as well as several tools and resources pages to provide their visitors with the information they needed.</p>
+<p>Some features of the site are state and city pages with information for families who are relocating to these areas, as well as dynamic contact forms for people trying to buy or refinance their home. There is also a "Tools &amp; Resources" section with FAQs, mortgage calculators, and data relating to VA home financing. The entire site is responsive, which allows visitors on any browser or device get the information they need, as well as connect with VNLG's loan officers.</p>
 
+<h2>Go team!</h2>
 {% include browser.html poster="/assets/img/veterans-desktop-2.jpg" webm="/assets/video/veterans-desktop2.webm" mp4="/assets/video/veterans-desktop2.mp4" classes="mb2" %}
+<p>VNLG wanted to stress in particular that they were a team of friendly, fun people looking to help their community however they could. To that end, I designed their team page to show visitors what VNLG was all about, including their creed and pictures of all the team members. Each team member has their own profile page showing their contact information, as well as allowing visitors to quickly get in touch.</p>
 </div>

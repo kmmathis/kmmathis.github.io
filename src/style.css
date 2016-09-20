@@ -130,7 +130,7 @@ a {
 
 .site-header { background-image: url('/assets/img/cover-2.jpg');
   background-size: cover;
-  background-position: bottom;}
+  background-position: top;}
 
 .cover {
   line-height: 1;
@@ -140,7 +140,7 @@ a {
 
     a {
       color: #fff;
-      background-color: #000;
+      background-color: #111;
       font-weight: bold;
 
       &:hover,
@@ -180,7 +180,7 @@ a {
 
   .cover-heading {
     display: block;
-    color: #000;
+    color: #111;
 
     &.yellow {
       background-color: #FFDC00;
@@ -257,9 +257,19 @@ a {
   .post-nav-next {
     padding-left: 1em;
   }
+
+  .post-nav-next.flush {
+    padding-left: 0;
+  }
 }
 
 .well {
   background-color: #eee;
   border-radius: 4px;
+}
+
+.site-footer {
+  a {
+    color: #111;
+  }
 }
