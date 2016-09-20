@@ -269,7 +269,24 @@ a {
 }
 
 .site-footer {
+  text-align: left;
+
   a {
     color: #111;
+  }
+
+  @media(--breakpoint-sm) {
+    text-align: left;
+
+    .block {
+      margin-right: 2em;
+    }
+  }
+
+}
+
+@media(--breakpoint-sm) {
+  .sm-inline {
+    display: inline;
   }
 }
